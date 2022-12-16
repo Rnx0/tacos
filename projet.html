@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="index.css">
+        <script type="text/javascript" src="tacos.js"></script>
+        <title>Composition de votre tacos</title>
+
+    </head>
+
+    <body>
+
+        <h1>Composez votre Tacos celon vos goûts !</h1>
+        <table style="width: 100%;">
+          <thead>
+              <tr>
+                  <th colspan="3">Création du Tacos</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td style="width: 33%"><h2>Choisis ta taille</h2>
+
+                    <ul>
+                        <li><input type="radio" name="article3" value="5" />
+            M (5€)</li>
+                        <li><input type="radio" name="article3" value="6" />
+            L (6€)</li>
+                        <li><input type="radio" name="article3" value="9" />
+            XL (9€)</li>
+                        <li><input type="radio" name="article3" value="14" />
+            XXL (14€)</li>
+                    </ul></td>
+
+                    <td style="width: 33%"> <h2>Choisis TA viande</h2>
+
+                      <ul>
+                          <li><input type="radio" name="article1" value="0" />
+              Poulet nature</li>
+                          <li><input type="radio" name="article1" value="8" />
+              Poulet mariné (8€) </li>
+                          <li><input type="radio" name="article1" value="0" />
+              Viande hachée de boeuf </li>
+                          <li><input type="radio" name="article1" value="4" />
+              Merguez de boeuf (4€) </li>
+                          <li><input type="radio" name="article1" value="0" />
+                Nuggets de poulet </li>
+                          <li><input type="radio" name="article1" value="3" />
+                  Cordon bleu de poulet (3€) </li>
+                  <li><input type="radio" name="article1" value="1" />
+                    Tenders de poulet (1€) </li>
+                      </ul>
+                    </td>
+
+                  <td><h2>Sauce</h2>
+
+
+                    <ul>
+                        <li><input type="radio" name="article2" value="0" />
+            Algérienne</li>
+                        <li><input type="radio" name="article2" value="0" />
+            Barbecue</li>
+                        <li><input type="radio" name="article2" value="0" />
+            Burger</li>
+                        <li><input type="radio" name="article2" value="0" />
+            Chili</li>
+            <li><input type="radio" name="article2" value="0" />
+              Curry</li>
+                          <li><input type="radio" name="article2" value="0" />
+              Fuego</li>
+              <li><input type="radio" name="article2" value="0" />
+               Harissa</li>
+                            <li><input type="radio" name="article2" value="0" />
+                Ketchup</li>
+                <li><input type="radio" name="article2" value="0" />
+                  Mayonnaise</li>
+                              <li><input type="radio" name="article2" value="0" />
+                  Samurai</li>
+                  <li><input type="radio" name="article2" value="0" />
+                    Tabasco</li>
+                                <li><input type="radio" name="article2" value="0" />
+                    Texan pepper</li>
+                    </ul></td>
+
+                    
+              </tr>
+          </tbody>
+      </table>
+
+       
+
+<h2><button  onclick="calculateTotal()">Calculer le prix total</button></h2>
+
+<center>
+  <h2 style="border: 5px solid black ; width: 25%">Prix total : <span id="total"></span>€</h2>
+
+</center>
+
+    </body>
+</html>
